@@ -205,7 +205,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     st.markdown('<span class="info-badge">👨‍💼 Lê Đỗ Gia Vũ</span>', unsafe_allow_html=True)
 with col2:
-    st.markdown('<span class="info-badge">🎓 223332821</span>', unsafe_allow_html=True)
+    st.markdown('<span class="info-badge">🎓 223332864</span>', unsafe_allow_html=True)
 with col3:
     st.markdown('<span class="info-badge">📚 CNN Model</span>', unsafe_allow_html=True)
 
@@ -377,6 +377,7 @@ st.markdown("""
     <p style="margin: 5px 0; opacity: 0.8;">© 2026 Lê Đỗ Gia Vũ | TensorFlow & Streamlit</p>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
