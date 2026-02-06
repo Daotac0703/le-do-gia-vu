@@ -1,8 +1,3 @@
-"""
-Ứng dụng nhận dạng người vs không phải người
-Sinh viên: Lê Quang Đạo - MSSV: 223332821
-"""
-
 import streamlit as st
 from tensorflow import keras
 from PIL import Image
@@ -208,7 +203,7 @@ st.markdown("""
 # ==================== INFO ====================
 col1, col2, col3 = st.columns(3)
 with col1:
-    st.markdown('<span class="info-badge">👨‍💼 Lê Quang Đạo</span>', unsafe_allow_html=True)
+    st.markdown('<span class="info-badge">👨‍💼 Lê Đỗ Gia Vũ</span>', unsafe_allow_html=True)
 with col2:
     st.markdown('<span class="info-badge">🎓 223332821</span>', unsafe_allow_html=True)
 with col3:
@@ -379,9 +374,10 @@ else:
 st.markdown("""
 <div class="footer-section">
     <p style="margin: 0; font-size: 1.1em; font-weight: 600;">🎓 Human Detection System</p>
-    <p style="margin: 5px 0; opacity: 0.8;">© 2026 Lê Quang Đạo | TensorFlow & Streamlit</p>
+    <p style="margin: 5px 0; opacity: 0.8;">© 2026 Lê Đỗ Gia Vũ | TensorFlow & Streamlit</p>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
